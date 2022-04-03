@@ -37,6 +37,7 @@ class Sql extends PDO {
         return $stmt;
 
     }
+    
 
     public function select($rawQuery, $params = array()):array
     {
